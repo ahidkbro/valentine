@@ -30,5 +30,5 @@ noBtn.addEventListener("click", () => {
 });
 
 yesBtn.addEventListener("click", () => {
-  alert("Bonne réponse 😌💖 ");
+  alert("Bonne réponse mon coeur 😌💖 ");
 });
