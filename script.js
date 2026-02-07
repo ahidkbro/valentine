@@ -6,9 +6,12 @@ let noSize = 1;
 let yesSize = 1;
 
 let phrases = [
-  "Euh… tu t'es trompée là 🤨",
+  "Euh… tu t'es trompée là...",
   "Wsh c’est bizarre… ça bug non ? 🤔",
-  "MAIS PTN DIS OUI 😡💔"
+  "Tu veux vraiment pas :(?",
+  "bon je vais plus te laisser le choix."
+
+
 ];
 
 let clickCount = 0;
@@ -27,5 +30,5 @@ noBtn.addEventListener("click", () => {
 });
 
 yesBtn.addEventListener("click", () => {
-  alert("Bonne réponse 😌💖 (la suite arrive)");
+  alert("Bonne réponse 😌💖 ");
 });
